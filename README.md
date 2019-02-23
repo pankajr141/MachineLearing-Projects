@@ -8,6 +8,14 @@ This repository contains deep learning based mini projects
   </tr>
   <tr>
     <td><b>siamese</b></td>
-    <td>CNN based siamese model to learn a function to preduct whether 2 PDF/Images are similar or not</td>
+    <td>CNN based siamese model to learn a function to predict whether 2 PDF/Images are similar or not</td>
+  </tr>
+  <tr>
+    <td><b>unstructured_extraction</b></td>
+    <td>Opencv based utility to identify and extraction unstructured content from PDF like paragraph, lines etc ignoring all the strcutured information</td>
+  </tr>
+  <tr>
+    <td><b>visual_segmentation</b></td>
+    <td>Clustering algorithm to cluster large group of PDF into different cluser based on how their visual signatures</td>
   </tr>
 </table>
