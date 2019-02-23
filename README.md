@@ -12,10 +12,10 @@ This repository contains deep learning based mini projects
   </tr>
   <tr>
     <td><b>unstructured_extraction</b></td>
-    <td>Opencv based utility to identify and extraction unstructured content from PDF like paragraph, lines etc ignoring all the strcutured information</td>
+    <td>OpenCV based utility to identify and extract unstructured content from PDF like paragraph, lines etc. ignoring all the structured information</td>
   </tr>
   <tr>
     <td><b>visual_segmentation</b></td>
-    <td>Clustering algorithm to cluster large group of PDF into different cluser based on how their visual signatures</td>
+    <td>Clustering algorithm to cluster large group of PDFs into different cluster based on their visual signatures</td>
   </tr>
 </table>
