@@ -64,10 +64,20 @@ Batch Size can be changed in codebase, but since we are not maintaining any ID t
 In order to analyze result pass the result file generated during prediction as below
 
 To print all the sentences on screen
-python -W ignore print_result.py --datafile pubmed_test_x.csv --resultfile result_test  --tagfile tags.txt
+<pre>
+python print_result.py --datafile pubmed_test_x --resultfile result_test  --tagfile tags.txt
+</pre>
 
 To print single sentence by index on screen
-python -W ignore print_result.py --datafile pubmed_test_x.csv --resultfile result_test  --tagfile tags.txt --index 1
+<pre>
+python print_result.py --datafile pubmed_test_x --resultfile result_test  --tagfile tags.txt --index 1
+</pre>
+
+Highlighting errors FN, FP. Here we need to pass actual label file
+<pre>
+python print_result.py --datafile pubmed_test_x --resultfile result_test  --labelfile pubmed_train_y --tagfile tags.txt --index 0
+</pre>
+
 
 <sub><i>
   Note: Above output is color coded, by default it support 3 Tags, colors being  
