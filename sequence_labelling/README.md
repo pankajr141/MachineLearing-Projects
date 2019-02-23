@@ -13,7 +13,7 @@ Sequence labelling models are used to label sequences, they will tag each token/
 <pre>
 ├── application.py            - contains all the dataset preparation and model calling code
 ├── create_training_data.py   - contains code for preparing training data.
-├── dataset_pubmed
+├── dataset_pubmed            - freely availaible dataset
 │   ├── pubmed_dataset.csv
 │   ├── test.csv
 │   └── train.csv
@@ -24,6 +24,9 @@ Sequence labelling models are used to label sequences, they will tag each token/
 ├── sentences.txt
 └── tags.txt
 </pre>
+
+w2v Downloaded from http://bio.nlplab.org/
+
 ### Architecture
 
 ## Model Execution Details
