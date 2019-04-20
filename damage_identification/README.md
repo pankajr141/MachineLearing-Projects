@@ -11,14 +11,13 @@ This repo contains code to identify damages on objects like rooftops due to hail
 			<li>Classifiers on Simple Features</li>
 		</ul>
 	</td>
-    <td>
+    	<td>
 		<ul>	
 			<li>The approach use Opencv to identify connected regions as potential damages</li>
 			<li>During Training Components are manually extracted by asking user Yes/No. </li>
 			<li>During training Components marked as damages as saved in csv by extracting features.</li>
 			<li>Same features are used for classification during predictions</li>
 		</ul>
-
 	</td>
   </tr>
   <tr>
@@ -31,7 +30,7 @@ This repo contains code to identify damages on objects like rooftops due to hail
 			<li>Classifier on Simple Features</li>
 		</ul>
 	</td>
-    <td>
+    	<td>
 		<ul>	
 			<li>Image is passed to noise filter to remove noise</li>
 			<li>Sliding Window of various sizes is used to identify potential damages</li>
@@ -39,12 +38,12 @@ This repo contains code to identify damages on objects like rooftops due to hail
 			<li>During Training Crops which are saved earlier are used with above cmap feature + additional</li>
 			<li>Enhanced colormap images are passed for feature creation and classification</li>
 		</ul>
-
 	</td>
   </tr>
 </table>
 
 ### Solution 1
+<pre>
 +--- solution1
 |   +--- common
 |   |   +--- constants.py
@@ -68,9 +67,9 @@ This repo contains code to identify damages on objects like rooftops due to hail
 |   |   +--- result.jpg
 |   +--- sample_pred.jpg                   [Image sample prediction result]
 |   +--- __init__.py
-
+</pre>
 ### Solution 2
-
+<pre>
 +--- solution2
 |   +--- extract_damage.py                 [Main File]
 |   +--- generate_featureset.py            [Create Feature CSV using damage/undamage crops from disk / Subsampling]
@@ -80,3 +79,4 @@ This repo contains code to identify damages on objects like rooftops due to hail
 |   |   +--- common.py                     [Colormaps / Additional Features / Image resize]
 |   |   +--- __init__.py
 |   +--- __init__.py
+</pre>
