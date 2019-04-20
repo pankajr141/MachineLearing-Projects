@@ -4,13 +4,13 @@ Created on Jun 30, 2016
 @author: pankajrawat
 '''
 
-import datawing.damage.extract_damage as ed
+import damage.extract_damage as ed
 import os
 import cv2
 import numpy as np
 import pandas as pd
-from datawing.damage.utils import common
-from datawing.image import operations as imop
+from damage.utils import common
+from image import operations as imop
 
 
 IMAGE_DIMENTION = 64
