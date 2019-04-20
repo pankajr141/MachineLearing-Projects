@@ -24,7 +24,11 @@ This repository contains deep learning based mini projects
     <td>Opencv based utility to automatically identifies key value pairs</td>
   </tr>
   <tr>
-    <td><b>Flexi layouts - Extraction</b></td>
+    <td><b>PDF - Extraction</b></td>
     <td>Opencv based utility to extract the key value pairs from PDF by looking into a template</td>
+  </tr>
+  <tr>
+    <td><b>Damae identification</b></td>
+    <td>Opencv/ML based utility to identify damages from rooftop images due to hailstorm</td>
   </tr>
 </table>
