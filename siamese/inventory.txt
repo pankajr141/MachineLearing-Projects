@@ -1,0 +1,7 @@
+type1_0/stacked_image.jpg,type1_1/stacked_image.jpg,type2_0/stacked_image.jpg
+type1_0/stacked_image.jpg,type1_2/stacked_image.jpg,type2_1/stacked_image.jpg
+type1_0/stacked_image.jpg,type1_4/stacked_image.jpg,type2_0/stacked_image.jpg
+type1_0/stacked_image.jpg,type1_1/stacked_image.jpg,type2_4/stacked_image.jpg
+type2_0/stacked_image.jpg,type2_1/stacked_image.jpg,type1_3/stacked_image.jpg
+type1_0/stacked_image.jpg,type1_1/stacked_image.jpg,type2_0/stacked_image.jpg
+type2_0/stacked_image.jpg,type2_1/stacked_image.jpg,type1_0/stacked_image.jpg
